@@ -1,0 +1,45 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+/* fontes: Raleway e Barlow */
+
+:root   {
+    --cor-fundo: #FFFFFF;
+    --cor-destaque: #FF3D00;
+    --cor-preto: #000000;
+    --cor-fundo-img: #1D1D1D;
+
+}
+
+.cabecalho  {
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho_titulo  {
+    display: flex;
+    margin: 1rem;
+    font-weight: 700;
+    color: var(--cor-destaque);
+    font-size: 1.3rem ;
+    justify-content: center;
+    
+}
+
+.cabecalho_menu ul  {
+    
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.cabecalho_menu li  {
+    margin: 1rem;
+    text-decoration: none;
+    
+}
