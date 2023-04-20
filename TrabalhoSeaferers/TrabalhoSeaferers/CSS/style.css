@@ -72,13 +72,13 @@ body {
     font-size: 6.8rem;
 }
 
-.conteudo_capa {
+.capa_conteudo {
     display: flex;
     flex-direction: row;
     margin: -7.8rem 1rem 0rem 6.6rem;
 }
 
-.conteudo_capa h1 {
+.capa_conteudo h1 {
     color: var(--cor-preto);
     font-family: var(--fonte-principal);
     font-weight: 600;
@@ -86,7 +86,7 @@ body {
     line-height: 130px;
 }
 
-.conteudo_capa p {
+.capa_conteudo p {
     z-index: 2;
     font-family: var(--fonte-principal);
     font-size: 1rem;
@@ -116,7 +116,7 @@ body {
     ;
 }
 
-.texto_capa h2 {
+.capa_texto h2 {
     color: var(--cor-preto);
     font-family: var(--fonte-principal);
     font-weight: 600;
@@ -141,7 +141,7 @@ hr {
     width: 90%;
 }
 
-.textos    {
+.bloco    {
     width: 98%;
     display: flex;
     justify-content: space-between;
@@ -164,7 +164,7 @@ hr {
     width: 90%;
     font-family: var(--fonte-principal);
     font-weight: 600;
-    font-size: 3.9rem;
+    font-size: 4.3rem;
     text-align:left;
     margin-top: 0rem;
     margin-left: 6rem;
@@ -203,7 +203,6 @@ hr {
     
     margin-left: 3.6rem;
     width: 70px;
-    height: 70px;
 }
 
 .bloco_mapa {
@@ -213,9 +212,9 @@ hr {
     margin: auto;
 }
 
-.mapa{
+.mapa{ 
+    width: 112%;
     
-    width: 111%;
     height: 111%;
     margin-bottom: 12rem;
 
@@ -254,5 +253,90 @@ hr {
     margin-top: 0rem;
     margin-left: 3rem;
     margin-bottom: 0rem;
+    margin-right: 0rem;   
+}
+
+.sobre_conquista    {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 35%;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
     margin-right: 0rem;
+    gap: 2rem;
+
+}
+.bloco_porto    {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.porto  {
+    width: 112%;
+    height: 111%;
+    margin-bottom: 12rem;
+}
+
+.transporte    {
+    align-self: center;
+    display: flex ;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sobre_transportes  {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.meios  {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    color: var(--cor-preto);
+}
+
+.sobre_meios    {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 50%;
+    margin-top: 0rem;
+    margin-left: 10rem;
+    margin-bottom: 0rem;
+    margin-right: 0rem;
+    gap: 2rem;
+}
+
+.transporte_imagens {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    width: 100%;  
+    
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.imagem_mensagem    {
+   
+    width: 340px;
+}
+
+.imagem_navio   {
+    
+    width: 380px;
+}
+
+.imagem_caminhoes   {
+    
+    width: 400px;
 }
