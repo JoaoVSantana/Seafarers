@@ -61,6 +61,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: end;
+    flex-wrap: nowrap;
 }
 
 .imagem_container img {
@@ -76,6 +77,15 @@ body {
     display: flex;
     flex-direction: row;
     margin: -7.8rem 1rem 0rem 6.6rem;
+    gap: 3rem;
+}
+
+.conteudo_menor {
+    display: flex;
+    margin: 0 auto;
+    justify-items: end;
+    align-content: flex-end;
+    gap: 2rem;
 }
 
 .capa_conteudo h1 {
@@ -92,11 +102,7 @@ body {
     font-size: 1rem;
     font-weight: 300;
     color: var(--cor-branco);
-    display: flex;
-    margin-top: 3.4rem;
-    margin-right: 2rem ;
-    margin-left: 13.8rem;
-    margin-bottom:auto ;
+    margin-top: 3rem;
 }
 
 .imagem_capa {
@@ -113,7 +119,7 @@ body {
     width: 70px;
     height: 70px;
     display: flex;
-    ;
+    justify-content: end;
 }
 
 .capa_texto h2 {
@@ -147,6 +153,7 @@ hr {
     justify-content: space-between;
     margin: auto;
     margin-bottom: 5rem;
+    gap: 2rem;
 }
 
 .conteudo_apresentacao  {
@@ -233,6 +240,7 @@ hr {
     justify-content: space-between;
     margin: auto;
     margin-bottom: 5rem;
+    gap: 2rem;
 }
 
 .conquista  {
@@ -294,6 +302,7 @@ hr {
     justify-content: space-between;
     margin: auto;
     margin-bottom: 5rem;
+    gap: 2rem;
 }
 
 .meios  {
@@ -323,7 +332,7 @@ hr {
     
     flex-direction: row;
     gap: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 12rem;
 }
 
 .imagem_mensagem    {
@@ -339,4 +348,20 @@ hr {
 .imagem_caminhoes   {
     
     width: 400px;
+}
+
+.opinioes    {
+    align-self: center;
+    display: flex ;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sobre_opinioes  {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 5rem;
+    gap: 2rem;
 }
